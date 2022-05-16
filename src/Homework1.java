@@ -15,8 +15,8 @@ public class Homework1 {
             writer.write("table {border-collapse:collapse; width:100%;text-align:left;}");
             writer.write("\r\n\t\t th,td{border:solid 1px #000}\n\t </style>\n </head>");
             writer.write("<body><table>");
-            writer.write("<center><tr>\r\n<th>키</th>\r\n");
-            writer.write("  <td>값</td>\r\n </tr></center>\r\n");
+            writer.write("<tr>\r\n<th><center>키</center></th>\r\n");
+            writer.write("  <td><center>값</center></td>\r\n </tr>\r\n");
 
             for(Object k: System.getProperties().keySet()){
                 String key = k.toString();
